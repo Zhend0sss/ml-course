@@ -1,5 +1,5 @@
 Slides:
-* [Lecture 02 slides](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day02_linear_reg/ml_lect002_linear_regression_style.pdf)
+* [Lecture 02 slides](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day002_linear_reg/ml_lect002_linear_regression_style.pdf)
 
 
 Practice:
