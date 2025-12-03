@@ -8,6 +8,7 @@ Machine Learning course repo for Harbour.Space, winter-spring 2026.
 | --- | --- | --- | --- | --- |
 | 001 | 01.12.2025 | Intro to ML | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day001_intro_knn_naive_bayes/ml_lect001_intro_knn_naive_bayes_style.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day001_intro_knn_naive_bayes/day001_knn_practice.ipynb) |
 | 002 | 02.12.2025 | Linear Regression | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day002_linear_reg/ml_lect002_linear_regression_style.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day002_linear_reg/day02_linear_regression_and_sgd.ipynb)  [extra](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day002_linear_reg/day02_extra_data_preprocessing_example.ipynb) |
+| 003 | 03.12.2025 | Linear classification | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day003_linear_classification/ml_lect003_logistic_regression_style.pdf) |  [extra_day002](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day002_linear_reg/day02_extra_data_preprocessing_example.ipynb) [practice_day001](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day001_intro_knn_naive_bayes/day001_knn_practice.ipynb) |
 | --- | --- | --- | --- | --- |
 
 ## Course prerequisites

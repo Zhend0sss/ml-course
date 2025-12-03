@@ -1,6 +1,6 @@
 Slides:
 
-* [ml-course_lect003_logistic_regression.pdf](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day003_linear_classification/ml_lect003_logistic_regression_style.pdf)
+* [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day003_linear_classification/ml_lect003_logistic_regression_style.pdf)
 
 Notebooks:
 
