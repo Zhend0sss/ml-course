@@ -1,4 +1,4 @@
-[Lection slides](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day04_svm_and_pca/ml_lect004_svm_pca_style.pdf)
+[Lecture slides](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day04_svm_and_pca/ml_lect004_svm_pca_style.pdf)
 
 
 Practice:
