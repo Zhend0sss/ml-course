@@ -5,3 +5,7 @@
 
 * Stacking ensemble example in scikit-learn:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day007_indexes_hyperopt/day07_plot_stack_predictors.ipynb)
+
+* Optuna for catboost:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day007_indexes_hyperopt/hyperparameters_tuning_using_optuna_and_hyperopt.ipynb)
+
