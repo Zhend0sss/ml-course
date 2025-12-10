@@ -5,4 +5,3 @@
 
 * Explaining a model that uses standardized features:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shap/shap/blob/master/notebooks/tabular_examples/linear_models/Explaining%20a%20model%20that%20uses%20standardized%20features.ipynb)
-
