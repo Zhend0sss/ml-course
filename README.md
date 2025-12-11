@@ -32,7 +32,7 @@ Refresh these using one of the links below:
 
 
 ## Useful links:
-1. Notes on [Matrix Derivatives](https://web.stanford.edu/~jduchi/projects/matrix_prop.pdf) from Stanford.
+1. Notes on [Matrix Derivatives](https://cs231n.stanford.edu/vecDerivs.pdf) from Stanford.
 
 2. Linear Models: linear regression, logistic regression, etc. [Notes](https://cs229.stanford.edu/notes2020fall/notes2020fall/cs229-notes1.pdf) from Stanford CS229 course.
 
