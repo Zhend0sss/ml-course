@@ -16,6 +16,8 @@ Machine Learning course repo for Harbour.Space, winter-spring 2026.
 | 008 | 10.12.2025 | Midterm test | [program](https://github.com/girafe-ai/ml-course/blob/26s_harbour/ml-course_program.pdf) | Revise Theoretical minimum Q1-Q23 |
 | 009 | 11.12.2025 | Intro to NNs | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day08_deep_learning_intro/ml_lect009_intro_to_dl.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day009_deep_learning_intro/day009_intro_to_pytorch.ipynb) |
 | 010 | 12.12.2025 | NNs optimization | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day010_nn_regularization/ml_lect010_intro_to_dl_part2.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day010_nn_regularization/pytorch_and_dataloaders.ipynb) |
+| 011 | 15.12.2025 | CNNs | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day011_cnns_and_images/ml_lect011_cnns.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day011_cnns_and_images/practice_cnns_and_image_classification_en.ipynb) |
+| 012 | 16.12.2025 | RNNs and NLP | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day012_language_modeling/ml_lect012_rnn_and_language_modeling.pdf) | [practice](https://colab.research.google.com/github/girafe-ai//ml-course/blob/26s_harbour/day012_language_modeling/seq2seq_rnn_practice_solved.ipynb) |
 | --- | --- | --- | --- | --- |
 
 ## Course prerequisites
