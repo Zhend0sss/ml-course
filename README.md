@@ -18,6 +18,9 @@ Machine Learning course repo for Harbour.Space, winter-spring 2026.
 | 010 | 12.12.2025 | NNs optimization | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day010_nn_regularization/ml_lect010_intro_to_dl_part2.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day010_nn_regularization/pytorch_and_dataloaders.ipynb) |
 | 011 | 15.12.2025 | CNNs | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day011_cnns_and_images/ml_lect011_cnns.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day011_cnns_and_images/practice_cnns_and_image_classification_en.ipynb) |
 | 012 | 16.12.2025 | RNNs and NLP | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day012_language_modeling/ml_lect012_rnn_and_language_modeling.pdf) | [practice](https://colab.research.google.com/github/girafe-ai//ml-course/blob/26s_harbour/day012_language_modeling/seq2seq_rnn_practice_solved.ipynb) |
+| 013 | 17.12.2025 | Embeddings | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day013_embeddings/ml_lect013_embeddings.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day013_embeddings/day13_self_supervised_simclr.ipynb) |
+| 014 | 18.12.2025 | Unsupervised | [link](https://github.com/girafe-ai/ml-course/blob/26s_harbour/day014_unsupervised/ml_lect014_unsupervised.pdf) | [practice](https://colab.research.google.com/github/girafe-ai/ml-course/blob/26s_harbour/day014_unsupervised/day014_pca_tsne_umap.ipynb) |
+| 015 | 19.12.2025 | Final exam | | |
 | --- | --- | --- | --- | --- |
 
 ## Course prerequisites
