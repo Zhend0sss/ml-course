@@ -1,5 +1,5 @@
 week10 practice on image classification:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-course/blob/22f_basic/week0_10_cnn/week10_cnn_seminar.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1FdmHMA_ego4eNzrq2RHT4-cai3EaRZtJ/view?usp=sharing)
 
 **Further readings**:
 
