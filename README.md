@@ -1,11 +1,3 @@
-# 2025 MSU Deep Learning course
+# 2025-2026 YMLS Deep Learning Course 
 
-## Videos
-
-* Lectures: https://disk.yandex.ru/d/m3XWGv02Dvbxcw
-* Seminars: https://disk.yandex.ru/d/TTQtkTXZP0p83g
-
-## Presenters
-
-* Radoslav Neychev
-* Safonov Fedor
+Weeks from 1 to 5 are not finalised yet, the content is still being updated...
