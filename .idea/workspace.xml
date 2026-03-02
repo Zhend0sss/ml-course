@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="552863f0-4372-4d6a-abc4-51189e837e24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/week01_dl_and_cv_recap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week01_dl_and_cv_recap/lect01_cv_overview.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02_dl_optimizers_and_cv/lect02_yolo_and_opt.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01_intro_to_dl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01_intro_to_dl/further_readings.md" beforeDir="false" afterPath="$PROJECT_DIR$/week01_dl_and_cv_recap/further_readings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01_intro_to_dl/lect001_intro_to_dl_style.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/week01_dl_and_cv_recap/lect01_dl_recap.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02_dl_optimizers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week02_dl_optimizers_and_cv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02_dl_optimizers/intro_to_pytorch.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02_dl_optimizers/lect002_deeplearning_opt.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/week02_dl_optimizers_and_cv/lect02_optimizers_recap.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02_dl_optimizers/notmnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/week02_dl_optimizers_and_cv/notmnist.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MakhmoodSodikov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/girafe-ai/ml-course.git&quot;,
+    &quot;accountId&quot;: &quot;0c6db09f-7e35-4cc3-9621-8446fdf68285&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="371DFW8D7RDWjCtbwt8gKwYqUNb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "26s__ymls__uz",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/makhmood/Desktop/ml-course/week02_dl_optimizers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week02_dl_optimizers" />
+      <recent name="$PROJECT_DIR$/week01_intro_to_dl" />
+      <recent name="$PROJECT_DIR$/week0_10_cnn" />
+      <recent name="$PROJECT_DIR$/exam" />
+      <recent name="$PROJECT_DIR$/week0_09_rnn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/labs/lab02_boosting_and_dl" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="552863f0-4372-4d6a-abc4-51189e837e24" name="Changes" comment="" />
+      <created>1766061579893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766061579893</updated>
+      <workItem from="1766061580908" duration="7888000" />
+      <workItem from="1770207005553" duration="598000" />
+      <workItem from="1770291838278" duration="13000" />
+      <workItem from="1771591770176" duration="5708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

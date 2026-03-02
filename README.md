@@ -1,3 +1,2 @@
 # 2025-2026 YMLS Deep Learning Course 
 
-Weeks from 1 to 5 are not finalised yet, the content is still being updated...
