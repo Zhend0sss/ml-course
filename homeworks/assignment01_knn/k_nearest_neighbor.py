@@ -77,7 +77,7 @@ class KNearestNeighbor:
                 # not use a loop over dimension, nor use np.linalg.norm().          #
                 #####################################################################
                 # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-                dists[i, j] = np.sqrt(np.sum((X_train[j] - X[i]) ** 2))
+                dists[i, j] = np.sqrt(np.sum((self.X_train[j] - X[i]) ** 2))
                 # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -99,7 +99,7 @@ class KNearestNeighbor:
             # Do not use np.linalg.norm().                                        #
             #######################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-            dists[i] = np.sqrt(np.sum(X_train - X[i]) ** 2, axis=1)
+            dists[i] = np.sqrt(np.sum(self.X_train - X[i]) ** 2, axis=1)
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -127,9 +127,9 @@ class KNearestNeighbor:
         #       and two broadcast sums.                                         #
         #########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-        v1 = np.sum(X_train ** 2, axis=0)
+        v1 = np.sum(self.X_train ** 2, axis=0)
         v2 = np.sum(X ** 2, axis=0)
-        matrix = np.tile(v1, (num_test, 1)) + np.tile(v2, (num_train, 1)).T - 2 * (X @ X_train.T)
+        matrix = np.tile(v1, (num_test, 1)) + np.tile(v2, (num_train, 1)).T - 2 * (X @ self.X_train.T)
         dists = np.sqrt(matrix)
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
@@ -163,7 +163,7 @@ class KNearestNeighbor:
             closest_y = np.zeros(k)
             indices = np.argsort(dists[i])
             for j in range(k):
-                closest_y = np.append(closest_y, y_train[indices[j]])
+                closest_y = np.append(closest_y, self.y_train[indices[j]])
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
             #########################################################################
             # TODO:                                                                 #
