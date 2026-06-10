@@ -1,4 +1,5 @@
 import numpy as np
+
 """
 Credits: the original code belongs to Stanford CS231n course assignment1. Source link: http://cs231n.github.io/assignments2019/assignment1/
 """
@@ -48,6 +49,7 @@ class KNearestNeighbor:
             raise ValueError('Invalid value %d for num_loops' % num_loops)
 
         return self.predict_labels(dists, k=k)
+        
 
     def compute_distances_two_loops(self, X):
         """
@@ -75,7 +77,7 @@ class KNearestNeighbor:
                 # not use a loop over dimension, nor use np.linalg.norm().          #
                 #####################################################################
                 # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
+                dists[i, j] = np.sqrt(np.sum((X_train[j] - X[i]) ** 2))
                 # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -84,7 +86,7 @@ class KNearestNeighbor:
         Compute the distance between each test point in X and each training point
         in self.X_train using a single loop over the test data.
 
-        Input / Output: Same as compute_distances_two_loops
+        Input / Output: Same as compute_distancnes_two_loops
         """
         num_test = X.shape[0]
         num_train = self.X_train.shape[0]
@@ -97,7 +99,7 @@ class KNearestNeighbor:
             # Do not use np.linalg.norm().                                        #
             #######################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
+            dists[i] = np.sqrt(np.sum(X_train - X[i]) ** 2, axis=1)
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -125,7 +127,10 @@ class KNearestNeighbor:
         #       and two broadcast sums.                                         #
         #########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
+        v1 = np.sum(X_train ** 2, axis=0)
+        v2 = np.sum(X ** 2, axis=0)
+        matrix = np.tile(v1, (num_test, 1)) + np.tile(v2, (num_train, 1)).T - 2 * (X @ X_train.T)
+        dists = np.sqrt(matrix)
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -155,7 +160,10 @@ class KNearestNeighbor:
             # Hint: Look up the function numpy.argsort.                             #
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
+            closest_y = np.zeros(k)
+            indices = np.argsort(dists[i])
+            for j in range(k):
+                closest_y = np.append(closest_y, y_train[indices[j]])
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
             #########################################################################
             # TODO:                                                                 #
@@ -165,8 +173,8 @@ class KNearestNeighbor:
             # label.                                                                #
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
-
+            values, counts = np.unique(closest_y, return_counts=True)
+            y_pred[i] = values[np.argmax(counts)]
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
         return y_pred
