@@ -34,7 +34,7 @@ def rbf(x_1, x_2, sigma=1.):
 
     matrix_devs = v_norms_1 + v_norms_2.T - 2 * mults
 
-    distances = np.exp(-1 * sigma * matrix_devs)
+    distances = np.exp(-1 * matrix_devs / 2 / sigma**2)
     return torch.Tensor(distances).type(torch.float32)
 
 def hinge_loss(scores, labels):
