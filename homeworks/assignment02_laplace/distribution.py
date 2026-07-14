@@ -37,7 +37,7 @@ class LaplaceDistribution:
         '''
         ####
         # Do not change the class outside of this block
-        return 
+        return -np.log(2 * self.scale) - np.abs(values - self.loc) / self.scale
         ####
         
     
@@ -47,4 +47,4 @@ class LaplaceDistribution:
         Args:
             values: A numpy array of shape (n_objects, n_features). Every column represents all available values for the selected feature.
         '''
-        return np.exp(self.logpdf(value))
+        return np.exp(self.logpdf(values))
